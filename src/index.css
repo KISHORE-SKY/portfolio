@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme{
+  --color-main-bg:#763948;
+  --color-main-text:#D6CCD0;
+  --background-image-gradient-bg:linear-gradient(90deg,#ed6d0d,#e615e1);
+}
+
+@layer component{
+    html {
+      @apply scroll-smooth
+    }
+    body{
+      @apply bg-main-bg
+    }
+
+    .navlists{
+      @apply text-main-text text-lg no-underline cursor-pointer
+    }
+}
