@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 @theme{
-  --color-main-bg:#763948;
+  --color-main-bg:#0F0F14;
   --color-main-text:#D6CCD0;
   --background-image-gradient-bg:linear-gradient(90deg,#ed6d0d,#e615e1);
+  
 }
 
 @layer component{
@@ -15,6 +16,9 @@
     }
 
     .navlists{
-      @apply text-main-text text-lg no-underline cursor-pointer
+      @apply text-main-text text-lg no-underline cursor-pointer md:text-[16px] hover:opacity-60 
+    }
+    .icons{
+      @apply p-1 border-1 rounded-2xl border-[rgba(255,255,255,0.6)]
     }
 }
