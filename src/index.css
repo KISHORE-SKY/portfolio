@@ -3,6 +3,7 @@
 @theme{
   --color-main-bg:#0F0F14;
   --color-main-text:#D6CCD0;
+  --color-bg-cart:#111111;
   --background-image-gradient-bg:linear-gradient(90deg,#ed6d0d,#e615e1);
   
 }
@@ -20,5 +21,8 @@
     }
     .icons{
       @apply p-1 border-1 rounded-2xl border-[rgba(255,255,255,0.6)]
+    }
+    .skillsIcons{
+      @apply w-[40px] sm:w-[45px] md:w-[50px] 
     }
 }
