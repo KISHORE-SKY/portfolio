@@ -44,8 +44,8 @@ function Projects() {
                                 <span className="text-[19px] text-white">Techs: </span>
                                 {item.techs}
                             </Typography>
-                            <Button varient="contained" className="bg-gradient-bg text-white" sx={{padding:'2px',borderRadius:'6px',textTransform:'none'}}>
-                                <a href={item.liveLink} target="_blank" className="cursor-pointer hover:opacity-70 text-main-text">Live Site</a>
+                            <Button varient="contained" className="bg-gradient-bg text-white cursor-pointer hover:shadow-[0px_3px_7px_0px_rgba(250,0,222,0.4)]" sx={{padding:'2px',borderRadius:'6px',textTransform:'none'}}>
+                                <a href={item.liveLink} target="_blank" className="cursor-pointer text-white">Live Site</a>
                             </Button>
                         </div>
                        

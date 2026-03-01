@@ -3,6 +3,7 @@ import Home from "./homeSection/home";
 import AboutMe from "./aboutSection/aboutme";
 import Projects from "./projectSection/projects";
 import Skills from "./techSkills/skills";
+import ConnectMe from "./contactSection/connect";
 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
         <AboutMe />
         <Projects />
         <Skills />
+        <ConnectMe />
       </main>
     </>
   );

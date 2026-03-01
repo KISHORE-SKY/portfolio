@@ -21,34 +21,34 @@ function Skills() {
         <>
             <section className="flex flex-col items-center pt-8 p-4">
                 <div className="flex flex-col items-center">
-                    <Typography variant="h4" component="h2" className="text-white">Technical Skills</Typography>
+                    <Typography variant="h4" component="h2" className="text-white" sx={{fontSize:'27px'}}>Technical Skills</Typography>
                     <div className='w-[100px] h-[3px] bg-[linear-gradient(90deg,#000000,#00fffc)]'></div>
                 </div>
 
-                <div className="pt-5 text-center flex flex-col gap-4 items-center sm:gap-6">
-                    <div className="flex items-center gap-2 sm:gap-4">
+                <div className="pt-8 text-center flex flex-col gap-4 items-center sm:gap-6 md:gap-8">
+                    <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
                         <img src={html} alt="html logo" className="skillsIcons" />
                         <img src={css} alt="css logo" className="skillsIcons"/>
                         <img src={javascript} alt="js logo" className="skillsIcons" />
                         <img src={react} alt="react logo" className="skillsIcons" />
                         <img src={typescript} alt="ts logo" className="skillsIcons" />
                     </div>
-                    <div className="flex items-center gap-2 sm:gap-4">
+                    <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
                         <img src={mui} alt="mui logo" className="skillsIcons" />
                         <img src={tailwind} alt="tailwind logo" className="skillsIcons" />
                         <img src={redux} alt="redux logo" className="skillsIcons" />
                         <img src={github} alt="github logo" className="skillsIcons" />
                     </div>
-                    <div className="flex items-center gap-2 sm:gap-4">
+                    <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
                         <img src={npm} alt="npm logo" className="skillsIcons" />
                         <img src={vercel} alt="vercel logo" className="skillsIcons" />
                         <img src={netlify} alt="netlify logo" className="skillsIcons" />
                     </div>
-                    <div className="flex items-center gap-2 sm:gap-4">
+                    <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
                         <img src={vite} alt="vite logo" className="skillsIcons" />
                         <img src={chrome} alt="chrome logo" className="skillsIcons" />
                     </div>
-                    <div>
+                    <div className="bg-transparent">
                         <img src={vscode} alt="vscode logo" className="skillsIcons" />
                     </div>
                 </div>

@@ -23,6 +23,12 @@
       @apply p-1 border-1 rounded-2xl border-[rgba(255,255,255,0.6)]
     }
     .skillsIcons{
-      @apply w-[40px] sm:w-[45px] md:w-[50px] 
+      @apply w-[40px] sm:w-[45px] md:w-[50px] hover:drop-shadow-[0px_0px_14px_rgba(119,0,117,1.0)] bg-transparent
+    }
+    .inputFields{
+      @apply bg-bg-cart text-main-text h-[38px] w-[250px] border-[1px] border-[rgba(255,255,255,0.4)] outline-none rounded-lg px-2 sm:w-[300px]
+    }
+    .messageField{
+      @apply bg-bg-cart text-main-text h-[170px] w-[250px] border-[1px] border-[rgba(255,255,255,0.4)] rounded-lg outline-none px-2 sm:w-[300px] md:w-[625px] md:h-[300px]
     }
 }
