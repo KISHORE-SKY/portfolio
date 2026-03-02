@@ -17,10 +17,10 @@
     }
 
     .navlists{
-      @apply text-main-text text-lg no-underline cursor-pointer md:text-[16px] hover:opacity-60 
+      @apply text-main-text text-lg no-underline cursor-pointer md:text-[16px] hover:opacity-60 lg:text-lg 
     }
     .icons{
-      @apply p-1 border-1 rounded-2xl border-[rgba(255,255,255,0.6)]
+      @apply p-1 border-1 rounded-2xl border-[rgba(255,255,255,0.6)] hover:shadow-[0px_0px_10px_4px_rgba(119,0,117,1.0)]
     }
     .skillsIcons{
       @apply w-[40px] sm:w-[45px] md:w-[50px] hover:drop-shadow-[0px_0px_14px_rgba(119,0,117,1.0)] bg-transparent

@@ -28,7 +28,7 @@ function ConnectMe() {
     useEffect(()=>{
         setTimeout(()=>{
             setSubmit(false);
-        },4000)
+        },5000)
 
         return ()=>clearTimeout();
     },[submit])

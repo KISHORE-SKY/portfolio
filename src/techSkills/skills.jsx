@@ -14,6 +14,7 @@ import vite from "../assets/images/skillsImage/vite.svg";
 import vscode from "../assets/images/skillsImage/icons8-visual-studio-code-2019.svg";
 import npm from "../assets/images/skillsImage/icons8-npm.svg";
 import chrome from "../assets/images/skillsImage/icons8-chrome.svg";
+import AOS from 'aos';
 
 function Skills() {
     
@@ -27,29 +28,29 @@ function Skills() {
 
                 <div className="pt-8 text-center flex flex-col gap-4 items-center sm:gap-6 md:gap-8">
                     <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
-                        <img src={html} alt="html logo" className="skillsIcons" />
-                        <img src={css} alt="css logo" className="skillsIcons"/>
-                        <img src={javascript} alt="js logo" className="skillsIcons" />
-                        <img src={react} alt="react logo" className="skillsIcons" />
-                        <img src={typescript} alt="ts logo" className="skillsIcons" />
+                        <img src={html} alt="html logo" className="skillsIcons" data-aos='zoom-in' />
+                        <img src={css} alt="css logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={javascript} alt="js logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={react} alt="react logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={typescript} alt="ts logo" className="skillsIcons" data-aos='zoom-in'/>
                     </div>
                     <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
-                        <img src={mui} alt="mui logo" className="skillsIcons" />
-                        <img src={tailwind} alt="tailwind logo" className="skillsIcons" />
-                        <img src={redux} alt="redux logo" className="skillsIcons" />
-                        <img src={github} alt="github logo" className="skillsIcons" />
+                        <img src={mui} alt="mui logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={tailwind} alt="tailwind logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={redux} alt="redux logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={github} alt="github logo" className="skillsIcons" data-aos='zoom-in'/>
                     </div>
                     <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
-                        <img src={npm} alt="npm logo" className="skillsIcons" />
-                        <img src={vercel} alt="vercel logo" className="skillsIcons" />
-                        <img src={netlify} alt="netlify logo" className="skillsIcons" />
+                        <img src={npm} alt="npm logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={vercel} alt="vercel logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={netlify} alt="netlify logo" className="skillsIcons" data-aos='zoom-in'/>
                     </div>
                     <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
-                        <img src={vite} alt="vite logo" className="skillsIcons" />
-                        <img src={chrome} alt="chrome logo" className="skillsIcons" />
+                        <img src={vite} alt="vite logo" className="skillsIcons" data-aos='zoom-in'/>
+                        <img src={chrome} alt="chrome logo" className="skillsIcons" data-aos='zoom-in'/>
                     </div>
                     <div className="bg-transparent">
-                        <img src={vscode} alt="vscode logo" className="skillsIcons" />
+                        <img src={vscode} alt="vscode logo" className="skillsIcons" data-aos='zoom-in'/>
                     </div>
                 </div>
             </section>

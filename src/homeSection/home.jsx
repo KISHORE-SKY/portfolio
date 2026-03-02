@@ -14,29 +14,29 @@ function Home() {
         <>
             <section id="home" className="h-screen p-4 flex flex-col justify-center items-center gap-1">
                 <div>
-                    <img src={profile} alt="profile image" loading="Lazy" className="w-[100px] rounded-[50%] " />
+                    <img src={profile} alt="profile image" className="w-[100px] rounded-[50%] " />
                 </div>
                 <div className="flex flex-col items-center gap-1 text-main-text">
-                    <p className="text-lg">Hi! I'm <span className="text-2xl bg-[linear-gradient(90deg,#3ee20c,#10ebb7)] bg-clip-text text-transparent">Kishore</span></p>
-                    <p className="text-2xl text-white">frontend web developer</p>
+                    <p className="text-lg" data-aos='zoom-in'>Hi! I'm <span className="text-2xl bg-[linear-gradient(90deg,#3ee20c,#10ebb7)] bg-clip-text text-transparent">Kishore</span></p>
+                    <p className="text-2xl text-white" data-aos='zoom-in'>frontend web developer</p>
                     <div className="sm:px-[100px]">
                         <p className="sm:text-lg text-center">I build responsive, user-focused web applications using React, JavaScript, and modern UI tools.</p>
                     </div>
-                    <div className="flex intems-center gap-2 mt-2">
-                        <div className="icons">
-                            <a href="https://github.com/KISHORE-SKY/" target="_blank"><FaGithub className="text-lg no-underline text-white cursor-pointer"/></a>
+                    <div className="flex intems-center gap-3 mt-2">
+                        <div className="icons" data-aos='fade-up'>
+                            <a href="https://github.com/KISHORE-SKY/" target="_blank" data-aos='fade-up'><FaGithub className="text-lg no-underline text-white cursor-pointer"/></a>
                         </div>
-                        <div className="icons">
-                            <a href="mailto:kishores12fde@gmail.com" target="_blank"><MdEmail className="text-lg text-white no-underline cursor-pointer"/></a>
+                        <div className="icons" data-aos='fade-up'>
+                            <a href="mailto:kishores12fde@gmail.com" target="_blank" data-aos='fade-up'><MdEmail className="text-lg text-white no-underline cursor-pointer"/></a>
                         </div>
-                        <div className="icons">
-                            <a href="https://www.linkedin.com/in/kishore017/" target="_blank"><FaLinkedin className="text-lg text-white no-underline cursor-pointer"/></a>
+                        <div className="icons" data-aos='fade-up'>
+                            <a href="https://www.linkedin.com/in/kishore017/" target="_blank" data-aos='fade-up'><FaLinkedin className="text-lg text-white no-underline cursor-pointer"/></a>
                         </div>
-                        <div className="icons">
-                            <a href="https://app.netlify.com/teams/skkishore1273/projects" target="_blank"><SiNetlify className="text-lg text-white no-underline cursor-pointer"/></a>
+                        <div className="icons" data-aos='fade-up'>
+                            <a href="https://app.netlify.com/teams/skkishore1273/projects" target="_blank" data-aos='fade-up'><SiNetlify className="text-lg text-white no-underline cursor-pointer"/></a>
                         </div>
-                        <div className="icons">
-                            <a href="https://vercel.com/kishore-s-projects-47e6768e" target="_blank"><IoLogoVercel className="text-lg text-white no-underline cursor-pointer"/></a>
+                        <div className="icons" data-aos='fade-up'>
+                            <a href="https://vercel.com/kishore-s-projects-47e6768e" target="_blank" data-aos='fade-up'><IoLogoVercel className="text-lg text-white no-underline cursor-pointer"/></a>
                         </div>
 
                     </div>

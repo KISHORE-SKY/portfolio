@@ -11,14 +11,16 @@ function AboutMe(){
                     <Typography variant='h4' component='h2' sx={{fontSize:'25px', color:'#ffffff'}} >About me</Typography>
                     <div className='w-[100px] h-[3px] bg-[linear-gradient(90deg,#000000,#00fffc)]'></div>
                 </div>
-                <div className='mt-4'>
-                    <img src={aboutImage} alt='profile image' loading='Lazy' className='w-[200px] rounded-2xl'/>
+                <div className='mt-4' data-aos='fade-right'>
+                    <img src={aboutImage} alt='profile image' className='w-[200px] rounded-2xl'
+                    />
                 </div>
                 <div className='text-center  md:px-5 lg:px-9' >
                     <p className='sm:text-lg lg:w-[650px]'>I'm a Frontend Developer who enjoys combining logic, styling, and design to build clean and interactive user interfaces.
                     I love creating well-structured UI layouts that focus on usability, responsiveness, and visual clarity.</p>
                 </div>
-                <div className='flex flex-col items-ceter justify-center gap-1 mt-3 bg-bg-cart border-1 p-2 border-[rgba(255,255,255,0.2)] rounded-2xl'>
+                <div className='flex flex-col items-ceter justify-center gap-1 mt-3 bg-bg-cart border-1 p-2 
+                border-[rgba(255,255,255,0.2)] rounded-2xl' data-aos='fade-left'>
                     <div className='flex items-center justify-center gap-1 '>
                         <GiGraduateCap className='text-[22px] text-white'/>
                         <Typography variant='h5' component='h3' sx={{fontSize:'19px',color:'#ffffff'}} >Education</Typography>

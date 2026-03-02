@@ -2,6 +2,7 @@ import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 import { CgMenuRight } from "react-icons/cg";
 import { MdCancel } from "react-icons/md";
+import OutsideClickHandler from 'react-outside-click-handler';
 
 
 function Navbar() {
@@ -27,7 +28,7 @@ function Navbar() {
                         <CgMenuRight onClick={menuHandler} className='text-[24px] text-main-text cursor-pointer md:hidden'/>
                     </div>
                 </section>
-
+            <OutsideClickHandler onOutsideClick={menuclosehandler}>
                 <nav className={`p-2 transition-all duration-300 ease ${open ? "pointer-events-auto opacity-100 translate-y-0 w-[70%] h-screen z-[10000] fixed top-0 right-0 bg-[#111111] text-main-text" :
                     "pointer-events-none opacity-0 translate-x-[70%] z-[-1] h-screen w-[70%] fixed top-0 right-0"}
                      md:flex-row md:z-1 md:opacity-100 md:pointer-events-auto md:inline-block md:translate-x-0 md:w-fit md:left-[auto] md:h-fit lg:pr-3`}>
@@ -39,9 +40,10 @@ function Navbar() {
                         <li className='navlists'>Technical skills</li>
                         <li className='navlists'>Projects</li>
                         <li className='navlists'>Contact me</li>
-                        <li><button className='bg-gradient-bg p-1 px-2 rounded-md text-main-text cursor-pointer text-lg font-semibold md:text-[16px] '>View Resume</button></li>
+                        <li><button className='bg-gradient-bg p-1 px-2 rounded-md text-white cursor-pointer text-lg font-semibold md:text-[16px] '>View Resume</button></li>
                     </ul>
                 </nav>
+                </OutsideClickHandler>
             </header>
         </>
     );
