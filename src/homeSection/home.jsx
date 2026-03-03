@@ -17,8 +17,8 @@ function Home() {
                     <img src={profile} alt="profile image" className="w-[100px] rounded-[50%] " />
                 </div>
                 <div className="flex flex-col items-center gap-1 text-main-text">
-                    <p className="text-lg" data-aos='zoom-in'>Hi! I'm <span className="text-2xl bg-[linear-gradient(90deg,#3ee20c,#10ebb7)] bg-clip-text text-transparent">Kishore</span></p>
-                    <p className="text-2xl text-white" data-aos='zoom-in'>frontend web developer</p>
+                    <p className="text-lg" data-aos='zoom-in'>Hi! I'm <span className="font-poppins text-2xl bg-[linear-gradient(90deg,#3ee20c,#10ebb7)] bg-clip-text text-transparent">Kishore</span></p>
+                    <p className="text-2xl text-white font-rose" data-aos='zoom-in'>frontend web developer</p>
                     <div className="sm:px-[100px]">
                         <p className="sm:text-lg text-center">I build responsive, user-focused web applications using React, JavaScript, and modern UI tools.</p>
                     </div>

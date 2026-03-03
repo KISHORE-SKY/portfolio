@@ -19,7 +19,7 @@ function Navbar() {
             <header className='p-4 fixed top-0 left-0 w-full z-[1000] bg-main-bg flex items-center md:px-4'>
                 <section className='flex justify-between w-full items-center md:w-fit'> 
                     <div className='flex items-center gap-[2px]'>
-                        <Typography varient='h1' component='h1' sx={{color:'var(--color-main-text)',fontSize:'22px'}}>
+                        <Typography varient='h1' component='h1' className='font-poppins' sx={{color:'var(--color-main-text)',fontSize:'22px'}}>
                             Kishore
                         </Typography>
                         <div className='bg-gradient-bg w-[6px] h-[6px] rounded-[5px] mt-2'></div>
