@@ -29,7 +29,7 @@
     }
 
     .navlists{
-      @apply text-main-text text-lg no-underline cursor-pointer md:text-[16px] hover:opacity-60 lg:text-lg 
+      @apply text-main-text text-lg no-underline cursor-pointer md:text-[16px] hover:opacity-60  
     }
     .icons{
       @apply p-1 border-1 rounded-2xl border-[rgba(255,255,255,0.6)] hover:shadow-[0px_0px_10px_4px_rgba(119,0,117,1.0)]

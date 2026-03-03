@@ -33,9 +33,9 @@ function Projects() {
                     md:gap-0 md:border-0 md:bg-main-bg md:grid-cols-[40%_3px_40%] lg:grid-cols-[minmax(350px,375px)_3px_minmax(350px,375px)]" key={item.id}>
                                        
                         <div className="flex flex-col items-center md:p-5 relative " >
-                            <div className=" w-auto lg:w-[350px] lg:mr-4 overflow-hidden rounded-lg">
+                            <div className=" w-auto lg:w-[350px] lg:mr-4 overflow-hidden rounded-lg " data-aos='fade-right'>
                                 <img src={item.image} alt={item.title} className="rounded-lg w-full lg:w-[350px] object-cover 
-                                hover:scale-110 transiton-transform duration-300 ease" data-aos='fade-right'/>
+                                hover:scale-110 transiton-transform duration-400 ease" />
                             </div>
                             <p className="self-end m-1 absolute text-[13px] bg-black/60 text-white px-[4px] py-[2px] tracking-wide rounded-[20px]"
                             data-aos='fade-right'>{item.count}</p>

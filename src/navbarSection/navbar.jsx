@@ -40,7 +40,9 @@ function Navbar() {
                         <li className='navlists'>Technical skills</li>
                         <li className='navlists'>Projects</li>
                         <li className='navlists'>Contact me</li>
-                        <li><button className='bg-gradient-bg p-1 px-2 rounded-md text-white cursor-pointer text-lg font-semibold md:text-[16px] '>View Resume</button></li>
+                        <li><button className='bg-gradient-bg p-1 px-2 rounded-md text-white cursor-pointer text-lg font-semibold 
+                        md:text-[16px] '><a className='navlists' href='/s-kishore-resume.pdf' target='_blank'
+                        rel="noopener noreferrer">View Resume</a></button></li>
                     </ul>
                 </nav>
                 </OutsideClickHandler>
