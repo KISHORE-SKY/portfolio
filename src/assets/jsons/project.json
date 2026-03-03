@@ -6,7 +6,7 @@
                 "title":"pigment UI",
                 "description":"A real-time UI style generator for modern web effects with live preview.",
                 "techs":"React JS, CSS, Tailwind CSS, React Router",
-                "image":"assets/images/pigment-ui.jpg",
+                "image":"/projectimages/pigment-ui.jpg",
                 "liveLink":"https://pigment-ui.vercel.app/",
                 "count":"project 1"
             },
@@ -15,8 +15,8 @@
                 "title":"360-Store",
                 "description":"A responsive e-commerce web application with product listings, cart management and checkout flow.",
                 "techs":"React JS, Tailwind CSS, React Router, Redux Toolkit, REST APIs",
-                "image":"assets/images/e-commerce.jpg",
-                "liveLink":"https://pigment-ui.vercel.app/",
+                "image":"/projectimages/e-commerce.jpg",
+                "liveLink":"https://360-store.vercel.app/",
                 "count":"project 2"
             },
             {
@@ -25,7 +25,7 @@
                 "title":"TodoHub",
                 "description":"A Kanban-style task management app with drag-and-drop workflows.",
                 "techs":"React JS, CSS",
-                "image":"assets/images/todoHub.jpg",
+                "image":"/projectimages/todoHub.jpg",
                 "liveLink":"https://kishore-sky.github.io/todo-hub/",
                 "count":"project 3"
             
@@ -36,7 +36,7 @@
                 "title":"Weather Pulse",
                 "description":"A real-time weather application that displays current weather information using live API data.",
                 "techs":"HTML, CSS, JavaScript, Weather APIs",
-                "image":"assets/images/weather.jpg",
+                "image":"/projectimages/weather.jpg",
                 "liveLink":"https://kishore-sky.github.io/weather-pulse/",
                 "count":"project 4"
             }
