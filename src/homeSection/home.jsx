@@ -42,7 +42,7 @@ function Home() {
                     </div>
                     <div className="flex items-center gap-4 mt-2">
                         <div className="flex items-center gap-[3px] bg-gradient-bg p-1 px-2 rounded-2xl">
-                            <button className="cursor-pointer"><a href="/s-kishore-resume.pdf" download>my resume</a></button>
+                            <button className="cursor-pointer"><a href="/public\kishore-s.pdf" download>my resume</a></button>
                             <FaDownload />
                         </div>
                         <div className="flex items-center gap-[3px] bg-main-text text-main-bg p-1 px-2 rounded-2xl">
