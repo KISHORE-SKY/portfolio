@@ -22,11 +22,11 @@
             {
                 
                 "id":3,
-                "title":"TodoHub",
-                "description":"A Kanban-style task management app with drag-and-drop workflows.",
-                "techs":"React JS, CSS",
+                "title":"Insight Admin",
+                "description":"Insight Admin is a data-driven admin dashboard that visualizes your learning progress and project contributions using GitHub data.",
+                "techs":"React,TypeScript,Tailwind CSS, Redux Toolkit, MUI, REST APIs",
                 "image":"/projects/todo.jpg",
-                "liveLink":"https://kishore-sky.github.io/todo-hub/",
+                "liveLink":"https://insight-admin-chi.vercel.app/",
                 "count":"project 3"
             
             },
@@ -35,7 +35,7 @@
                 "id":4,
                 "title":"Weather Pulse",
                 "description":"A real-time weather application that displays current weather information using live API data.",
-                "techs":"HTML, CSS, JavaScript, Weather APIs",
+                "techs":"HTML5, CSS3, JavaScript, Weather APIs",
                 "image":"/projects/weather.jpg",
                 "liveLink":"https://kishore-sky.github.io/weather-pulse/",
                 "count":"project 4"
